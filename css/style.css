@@ -30,8 +30,8 @@ button {
 
 .listAlign {
 	display: inline-block;
-	width: 6em;
-	height: 1em;
+	width: 10em;
+	height: 1.2em;
 }
 
 .setListHead {
@@ -45,5 +45,12 @@ button {
 }
 
 .setGreen{
-	color: #147204;
+	color: white;
+	background-color: green;
 }
+
+.setRed{
+	color: white;
+	background-color: red;
+}
+
