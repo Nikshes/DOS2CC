@@ -35,7 +35,7 @@ button {
 }
 
 .setListHead {
-	color: red;
+font-weight: bold;
 	text-align: center;
 
 }
@@ -45,12 +45,33 @@ button {
 }
 
 .setActive{
-	color: white;
-	background-color: green;
+	color: #14820e;
+	font-weight: bold;
+/*	background-color: green;*/
+
 }
 
 .setIncompatible{
-	color: white;
-	background-color: red;
+	color: #a50000;
+	font-weight: bold;
+/*	background-color: red;*/
 }
 
+body {
+	font-size: 16px;
+}
+
+.talentList{
+
+    text-align: center;
+}
+
+.mainBg{
+	background-image: url(../imgs/mainbg.jpg);
+}
+.columBg{
+	background-color: #9dacb2;
+margin-left: 5px;
+margin-right: 5px;
+
+}
