@@ -68,6 +68,7 @@ body {
 
 .mainBg{
 	background-image: url(../imgs/mainbg.jpg);
+	background-repeat: no-repeat;
 }
 .columBg{
 	background-color: #9dacb2;
