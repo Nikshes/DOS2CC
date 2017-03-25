@@ -44,12 +44,12 @@ button {
 	text-align: left;
 }
 
-.setGreen{
+.setActive{
 	color: white;
 	background-color: green;
 }
 
-.setRed{
+.setIncompatible{
 	color: white;
 	background-color: red;
 }
