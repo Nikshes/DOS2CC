@@ -160,7 +160,7 @@ function toggleTalentsColor (elementId){
 	if ($(talentId).hasClass("talent")){
 		$(talentId).toggleClass("setActive")
 			classCheck(elementId, talentId)
-			addSelectedTalents (talentId, elementId)
+
 	}
 	return
 }
@@ -181,15 +181,3 @@ function classCheck (elementId, talentId){
 	return
 }
 
-function addSelectedTalents (talentId,elementId){
-	if ($(talentId).hasClass("setActive")){
-		var selectedTalents = $(talentId).text()
-		$("#selectedTalents").append("<li class= "+elementId+">"+ selectedTalents +"</li>")
-	}
-	else{
-		if ($("li").hasClass(elementId)){
-			($("#selectedTalents"+" "+"."+elementId).remove())
-		}
-	}
-	return
-}
