@@ -81,3 +81,6 @@ padding-right: 0;
 .setRight {
 	text-align: right;
 }
+.tooltip-inner {
+    white-space:pre-wrap;
+}
